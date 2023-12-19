@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
     <head>
-        <title>Dalli-Klick</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="{{url_for('static',filename='css/output.css')}}" rel="stylesheet">
+        <title>Dalli-Klick-TW</title>
         <script src="/static/OCanvas.js"></script>
         <script src="/static/main.js"></script>
-        <link rel="stylesheet" href="/static/style.css"/>
         <script>
             window.dalli_cfg = {
                 img: "{{url_for('custom_static', filename=img)}}"
@@ -19,6 +21,7 @@
     </head>
     <body>
         <div id="container">
+            <h1 class="font-bold leading-tight text-gray-900 font-9xl">Dalli-Klick</h1>
             <canvas id="canvas"></canvas>
             <div id="toolbar">
                 <form method="get" action="/">

@@ -5,7 +5,7 @@ import os
 
 from flask import Flask, render_template, request, send_from_directory
 
-app = Flask("dalli-click")
+app = Flask("dalli-click-tw")
 files = []
 
 @app.route("/img/<filename>")
