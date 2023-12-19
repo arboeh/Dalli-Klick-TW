@@ -1,8 +1,8 @@
 /*!
- * oCanvas v2.10.0
+ * oCanvas v2.10.1
  * http://ocanvas.org/
  *
- * Copyright 2011-2018, Johannes Koggdal
+ * Copyright 2011-2023, Johannes Koggdal
  * Licensed under the MIT license
  * http://ocanvas.org/license
  *
@@ -16,7 +16,7 @@
 	var oCanvas = {
 	    
 		// Version number of this oCanvas release.
-		version: "2.10.0",
+		version: "2.10.1",
 		
 		// Array containing all canvases created by oCanvas on the current page
 		canvasList: [],
@@ -5095,13 +5095,23 @@
 			shapeType: "rectangular",
 			clipChildren: false,
 
-			_: oCanvas.extend({}, thecore.displayObject._, {
-				borderTopLeftRadius: 0,
-				borderTopRightRadius: 0,
-				borderBottomRightRadius: 0,
-				borderBottomLeftRadius: 0,
-				borderRadius: 0,
-			}),
+			_: oCanvas.extend(
+				{},
+				thecore.displayObject._,
+				{
+					shadow: oCanvas.extend(
+						{},
+						thecore.displayObject._.shadow
+					)
+				},
+				{
+					borderTopLeftRadius: 0,
+					borderTopRightRadius: 0,
+					borderBottomRightRadius: 0,
+					borderBottomLeftRadius: 0,
+					borderRadius: 0,
+				}
+			),
 
 			set borderTopLeftRadius (value) {
 				this._.borderTopLeftRadius = parseFloat(value, 10);
@@ -5297,9 +5307,19 @@
 		return oCanvas.extend({
 			core: thecore,
 
-			_: oCanvas.extend({}, thecore.displayObject._, {
-				hasBeenDrawn: false
-			}),
+			_: oCanvas.extend(
+				{},
+				thecore.displayObject._,
+				{
+					shadow: oCanvas.extend(
+						{},
+						thecore.displayObject._.shadow
+					)
+				},
+				{
+					hasBeenDrawn: false
+				}
+			),
 			
 			shapeType: "rectangular",
 			loaded: false,
@@ -5486,20 +5506,30 @@
 			// Default properties
 			align: "start",
 			baseline: "top",
-			_: oCanvas.extend({}, thecore.displayObject._, {
-				hasBeenDrawn: false,
-				font: "normal normal normal 16px/1 sans-serif",
-				style: "normal",
-				variant: "normal",
-				weight: "normal",
-				size: 16,
-				lineHeight: 1,
-				family: "sans-serif",
-				text: "",
-				width: 0,
-				height: 0,
-				lines: []
-			}),
+			_: oCanvas.extend(
+				{},
+				thecore.displayObject._,
+				{
+					shadow: oCanvas.extend(
+						{},
+						thecore.displayObject._.shadow
+					)
+				},
+				{
+					hasBeenDrawn: false,
+					font: "normal normal normal 16px/1 sans-serif",
+					style: "normal",
+					variant: "normal",
+					weight: "normal",
+					size: 16,
+					lineHeight: 1,
+					family: "sans-serif",
+					text: "",
+					width: 0,
+					height: 0,
+					lines: []
+				}
+			),
 			
 			// Setters for font properties
 			set font (value) {
@@ -5832,10 +5862,20 @@
 			shapeType: "radial",
 			clipChildren: false,
 			
-			_: oCanvas.extend({}, thecore.displayObject._, {
-				radius_x: 0,
-				radius_y: 0
-			}),
+			_: oCanvas.extend(
+				{},
+				thecore.displayObject._,
+				{
+					shadow: oCanvas.extend(
+						{},
+						thecore.displayObject._.shadow
+					)
+				},
+				{
+					radius_x: 0,
+					radius_y: 0
+				}
+			),
 			
 			set radius (value) {
 				this._.radius_x = value;
@@ -5960,10 +6000,20 @@
 			sides: 3,
 			clipChildren: false,
 			
-			_: oCanvas.extend({}, thecore.displayObject._, {
-				radius: 0,
-				side: 0
-			}),
+			_: oCanvas.extend(
+				{},
+				thecore.displayObject._,
+				{
+					shadow: oCanvas.extend(
+						{},
+						thecore.displayObject._.shadow
+					)
+				},
+				{
+					radius: 0,
+					side: 0
+				}
+			),
 			
 			set radius (value) {
 				this._.radius = value;
@@ -6051,16 +6101,26 @@
 			shapeType: "radial",
 			
 			// Properties
-			_: oCanvas.extend({}, thecore.displayObject._, {
-				start_x: 0,
-				start_y: 0,
-				end_x: 0,
-				end_y: 0,
-				x: 0,
-				y: 0,
-				abs_x: 0,
-				abs_y: 0
-			}),
+			_: oCanvas.extend(
+				{},
+				thecore.displayObject._,
+				{
+					shadow: oCanvas.extend(
+						{},
+						thecore.displayObject._.shadow
+					)
+				},
+				{
+					start_x: 0,
+					start_y: 0,
+					end_x: 0,
+					end_y: 0,
+					x: 0,
+					y: 0,
+					abs_x: 0,
+					abs_y: 0
+				}
+			),
 			children: [],
 			
 			// Getters and setters
@@ -6277,10 +6337,20 @@
 			loop: true,
 			clipChildren: false,
 			
-			_: oCanvas.extend({}, thecore.displayObject._, {
-				autostart: false,
-				hasBeenDrawn: false
-			}),
+			_: oCanvas.extend(
+				{},
+				thecore.displayObject._,
+				{
+					shadow: oCanvas.extend(
+						{},
+						thecore.displayObject._.shadow
+					)
+				},
+				{
+					autostart: false,
+					hasBeenDrawn: false
+				}
+			),
 			
 			set autostart (value) {
 				this.active = value;
