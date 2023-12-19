@@ -19,18 +19,22 @@
             }
         </style>
     </head>
-    <body>
-        <div id="container">
-            <h1 class="font-bold leading-tight text-gray-900 font-9xl">Dalli-Klick</h1>
-            <canvas id="canvas"></canvas>
-            <div id="toolbar">
-                <form method="get" action="/">
-                    <input type="hidden" name="image" value="{{pageno}}"/>
-                    <input type="submit" id="btn-next" value="N&auml;chstes Bild"/>
-                </form>
-                <button id="btn-hint">Freilegen</button>
-                <button id="btn-sol">L&ouml;sen</button>
-            </div>
+    <body class="font-sans">
+        <div id="container" class="text-center">
+            <h1 class="font-bold font-9xl text-gray-900 drop-shadow-md">Dalli-Klick</h1>
+            <canvas id="canvas" class="max-w-[100%] max-h-[100%] border-8 border-black shadow-lg shadow-black"></canvas>
+            <!-- div class="grid m-auto p-8 justify-evenly" -->
+                <div class="py-8">
+                    <div class="flex flex-wrap justify-center gap-4 p-4">
+                        <form method="get" action="/">
+                            <input type="hidden" name="image" value="{{pageno}}"/>
+                            <button type="submit" id="btn-next" class="primary-btn">N&auml;chstes Bild</button>
+                        </form>
+                        <button id="btn-hint" class="primary-btn">Freilegen</button>
+                        <button id="btn-sol" class="primary-btn">L&ouml;sen</button>
+                    </div>
+                </div>
+            <!-- /div -->
         </div>
     </body>
 </html>
