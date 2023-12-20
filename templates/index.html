@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{{url_for('static',filename='css/output.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet">
     <title>Dalli-Klick-TW</title>
     <script src="/static/OCanvas.js"></script>
     <script src="/static/main.js"></script>
@@ -13,26 +13,20 @@
             img: "{{url_for('custom_static', filename=img)}}"
         };
     </script>
-    <style>
-        body {
-            background-image: url("/static/bg.jpg");
-            background-repeat: repeat;
-        }
-    </style>
 </head>
 
-<body class="font-sans">
-    <div id="container" class="grid justify-center text-center">
+<body class="font-sans" style="background-image: url(/static/img/bg.jpg)">
+    <div id="container" class="grid place-items-center">
         <h1 class="font-bold font-9xl text-gray-900 drop-shadow-md">Dalli-Klick</h1>
         <canvas id="canvas" class="max-w-[100%] max-h-[100%] border-8 border-black shadow-lg shadow-black"></canvas>
-        <div class="py-8">
-            <div class="flex flex-wrap justify-center gap-4 p-4">
+        <div class="py-4">
+            <div class="flex gap-4 p-4">
                 <form method="get" action="/">
                     <input type="hidden" name="image" value="{{pageno}}" />
-                    <button type="submit" id="btn-next" class="primary-btn">N&auml;chstes Bild</button>
+                    <button type="submit" id="btn-next" class="primary-btn h-12">N&auml;chstes Bild</button>
                 </form>
-                <button id="btn-hint" class="primary-btn">Freilegen</button>
-                <button id="btn-sol" class="primary-btn">L&ouml;sen</button>
+                <button id="btn-hint" class="primary-btn h-12">Freilegen</button>
+                <button id="btn-sol" class="primary-btn h-12">L&ouml;sen</button>
             </div>
         </div>
     </div>
