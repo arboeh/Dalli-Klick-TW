@@ -1,16 +1,18 @@
-# Dalli-Klick-TW (Dalli-Klick-Tailwind)
+# Dalli-Klick-TW
+## (Dalli-Klick-Tailwind)
 Ein schnell zusammen-gehacktes Dalli-Klick Spiel, das im Browser spielbar ist.   
 Allerdings __ohne__ Punktesystem.
+Optimiert mit Tailwind CSS.
 
 ### Abhängigkeiten
 - python3
 - pip
-- Web-Browser (optimiert für Firefox)
+- Web-Browser
 
 ### Installation
 ```
-git clone https://github.com/s-h-3-l-l/Dalli-Klick
-cd Dalli-Klick
+git clone https://github.com/arboeh/Dalli-Klick-TW
+cd Dalli-Klick-TW
 pip install -r requirements.txt
 ```
 
