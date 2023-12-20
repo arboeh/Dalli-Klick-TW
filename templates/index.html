@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
     <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet">
     <title>Dalli-Klick-TW</title>
     <script src="/static/js/oCanvas.js"></script>
@@ -15,12 +18,12 @@
     </script>
 </head>
 
-<body class="font-sans" style="background-image: url(/static/img/bg.jpg)">
+<body class="font-alice" style="background-image: url(/static/img/bg.jpg)">
     <div id="container" class="grid place-items-center">
         <h1 class="font-bold font-9xl text-gray-900 drop-shadow-md">Dalli-Klick</h1>
         <canvas id="canvas" class="max-w-[100%] max-h-[100%] border-8 border-black shadow-lg shadow-black"></canvas>
         <div class="py-4">
-            <div class="flex gap-4 p-4">
+            <div class="flex gap-4 p-4 font-sans">
                 <form method="get" action="/">
                     <input type="hidden" name="image" value="{{pageno}}" />
                     <button type="submit" id="btn-next" class="primary-btn h-12">N&auml;chstes Bild</button>

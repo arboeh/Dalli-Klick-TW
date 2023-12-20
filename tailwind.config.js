@@ -36,8 +36,9 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'sans': ['Roboto', 'ui-sans-serif', 'system-ui']
+        'alice': ['"Alice"', "sans-serif"]
       }
-    }
+    },
+    plugins: [],
   }
 }
