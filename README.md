@@ -27,9 +27,9 @@ Danach ist das Spiel unter [http://127.0.0.1:5000](http://127.0.0.1:5000)
 zu erreichen.
 
 ### Benutzen
-![](./scrot1.png)
-![](./scrot2.png)
-![](./scrot3.png)
+![](./screenshots/scrot1.png)
+![](./screenshots/scrot2.png)
+![](./screenshots/scrot3.png)
 Das Bild, das erraten werden muss befindet sich oben in dem schwarzen Kasten und ist mit bunten Quadraten überdeckt.
 Darunter befinden sich drei Buttons.
 Um nach und nach mehr vom Bild zu zeigen auf `Freilegen` drücken. Dies entfernt je ein farbiges Quadrat über dem Bild.   
