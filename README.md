@@ -1,8 +1,8 @@
 # Dalli-Klick-TW
 ## (Dalli-Klick-Tailwind)
-Ein schnell zusammen-gehacktes Dalli-Klick Spiel, das im Browser spielbar ist.   
+Ein schnell zusammen-gehacktes Dalli-Klick Spiel des legendären Quizmasters Hans Rosenthal, das im Browser spielbar ist.   
 Allerdings __ohne__ Punktesystem.
-Optimiert mit Tailwind CSS.
+Optimiert mit Tailwind CSS. Läuft in jedem Browser.
 
 ### Abhängigkeiten
 - python3
