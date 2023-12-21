@@ -36,3 +36,14 @@ Darunter befinden sich drei Buttons.
 Um nach und nach mehr vom Bild zu zeigen auf `Freilegen` drücken. Dies entfernt je ein farbiges Quadrat über dem Bild.   
 Um alle Quadrate auf einmal zu entfernen auf `Lösen` drücken.    
 Zum nächsten Bild kann man über den Button `Nächstes Bild` gelangen.
+
+### Pläne
+- Automatisierter Ablauf des "Freilegens" mit Pause-Funktion
+- Hintergrundmelodie beim "Freilegen"
+
+### Medien
+Die hier abgebildeten, bzw. verwendeten Medien unterliegen der Creative Commons Lizenz (CC).
+- "Hans-Rosenthal-Elf"
+  - Link: https://commons.wikimedia.org/wiki/File:Gedenktafel_Waldschulallee_34_%28Westend%29_Hans_Rosenthal%E2%80%93Elf.jpg
+  - User: OTFW (https://commons.wikimedia.org/wiki/User:OTFW)
+  - Originaldatei: https://upload.wikimedia.org/wikipedia/commons/4/49/Gedenktafel_Waldschulallee_34_%28Westend%29_Hans_Rosenthal%E2%80%93Elf.jpg
