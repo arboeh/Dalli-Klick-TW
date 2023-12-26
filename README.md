@@ -36,7 +36,7 @@ Das Bild, das erraten werden muss befindet sich oben in dem schwarzen Kasten und
 Darunter befinden sich drei Buttons.
 Um nach und nach mehr vom Bild zu zeigen auf `Freilegen` drücken. Dies entfernt automatisch alle drei Sekunden ein farbiges Quadrat über dem Bild.
 Der Vorgang kann mit `Pause` unterbrochen werden. Während des "Freilegens" ertönt eine Hintergrundmelodie im Browser.
-Um alle Quadrate auf einmal zu entfernen auf `Lösen` drücken.    
+Um alle Quadrate auf einmal zu entfernen auf `Auflösen` drücken.    
 Zum nächsten Bild kann man über den Button `Nächstes Bild` gelangen.
 
 ### Medien
