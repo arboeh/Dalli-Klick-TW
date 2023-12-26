@@ -707,9 +707,14 @@ video {
   font-weight: 700;
 }
 
-.text-gray-900 {
+.text-\[color\:white\] {
   --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow-lg {
@@ -745,7 +750,7 @@ h3 {
 
 a {
   --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
+  color: rgb(0 0 153 / var(--tw-text-opacity));
   text-decoration-line: underline;
 }
 

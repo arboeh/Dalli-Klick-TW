@@ -15,6 +15,7 @@ def custom_static(filename):
 @app.route("/")
 def index():
     global files
+
     idx = int(request.args.get("image", 0))
     if idx >= 0 and idx < len(files):
         return render_template("index.html", img=files[idx], pageno=idx + 1)
@@ -23,16 +24,17 @@ def index():
 
 def main():
     global files
-    
+    global proc_audio
+
     if len(sys.argv) < 2:
         print("Please specify a directory with images")
         exit(1)
-    
+
     app.config["CUSTOM_STATIC_PATH"] = sys.argv[1]
-    
+
     for filename in os.listdir(sys.argv[1]):
         files.append(filename)
-    
+
     app.run()
 
 if __name__ == "__main__":

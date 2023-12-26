@@ -8,6 +8,7 @@ Optimiert mit Tailwind CSS. Läuft in jedem Browser.
 - python3
 - pip
 - Web-Browser
+- (Zum selbst "Bauen" wird Node.js und Tailwind benötigt)
 
 ### Installation
 ```
@@ -33,13 +34,10 @@ zu erreichen.
 ![](./screenshots/scrot4.png)
 Das Bild, das erraten werden muss befindet sich oben in dem schwarzen Kasten und ist mit bunten Quadraten überdeckt.
 Darunter befinden sich drei Buttons.
-Um nach und nach mehr vom Bild zu zeigen auf `Freilegen` drücken. Dies entfernt je ein farbiges Quadrat über dem Bild.   
+Um nach und nach mehr vom Bild zu zeigen auf `Freilegen` drücken. Dies entfernt automatisch alle drei Sekunden ein farbiges Quadrat über dem Bild.
+Der Vorgang kann mit `Pause` unterbrochen werden. Während des "Freilegens" ertönt eine Hintergrundmelodie im Browser.
 Um alle Quadrate auf einmal zu entfernen auf `Lösen` drücken.    
 Zum nächsten Bild kann man über den Button `Nächstes Bild` gelangen.
-
-### Pläne
-- Automatisierter Ablauf des "Freilegens" mit Pause-Funktion
-- Hintergrundmelodie beim "Freilegen"
 
 ### Medien
 Die hier abgebildeten, bzw. verwendeten Medien unterliegen der Creative Commons Lizenz (CC).
@@ -47,3 +45,11 @@ Die hier abgebildeten, bzw. verwendeten Medien unterliegen der Creative Commons 
   - Link: https://commons.wikimedia.org/wiki/File:Gedenktafel_Waldschulallee_34_%28Westend%29_Hans_Rosenthal%E2%80%93Elf.jpg
   - User: OTFW (https://commons.wikimedia.org/wiki/User:OTFW)
   - Originaldatei: https://upload.wikimedia.org/wikipedia/commons/4/49/Gedenktafel_Waldschulallee_34_%28Westend%29_Hans_Rosenthal%E2%80%93Elf.jpg
+
+- Hintergrundbild "Dual Hexagon Pattern"
+  - Link: https://www.deviantart.com/mystica-264/art/Dual-Hexagon-Pattern-10k-893229142
+  - User: mystica-264 (https://www.deviantart.com/mystica-264)
+
+- Hintergrundmelodie "Quiz Game Music Loop"
+  - Link: https://freesound.org/people/portwain/sounds/220060/
+  - User: portwain (https://freesound.org/people/portwain/)

@@ -18,9 +18,9 @@
     </script>
 </head>
 
-<body class="font-alice" style="background-image: url(/static/img/bg.jpg)">
+<body class="font-alice" style="background-image: url(/static/img/bg.png)">
     <div id="container" class="grid place-items-center">
-        <h1 class="font-bold font-9xl text-gray-900 drop-shadow-md">Dalli-Klick</h1>
+        <h1 class="font-bold font-9xl text-[color:white] drop-shadow-md">Dalli-Klick</h1>
         <canvas id="canvas" class="max-w-[100%] max-h-[100%] border-8 border-black shadow-lg shadow-black"></canvas>
         <div class="py-4">
             <div class="flex gap-4 p-4 font-sans">
@@ -29,7 +29,8 @@
                     <button type="submit" id="btn-next" class="primary-btn h-12">N&auml;chstes Bild</button>
                 </form>
                 <button id="btn-hint" class="primary-btn h-12">Freilegen</button>
-                <button id="btn-sol" class="primary-btn h-12">L&ouml;sen</button>
+                <button id="btn-pause" class="primary-btn h-12 hidden">Pause</button>
+                <button id="btn-sol" class="primary-btn h-12">Aufl&ouml;sen</button>
             </div>
         </div>
     </div>

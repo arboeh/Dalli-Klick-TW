@@ -2,6 +2,11 @@
 module.exports = {
   content: ["./templates/*.html"],
   theme: {
+    textColor: {
+      "white": "#FFF",
+      "black": "#000",
+      "blue-600": "#000099",
+    },
     fontSize: {
       "5xl": [
         "3rem",
